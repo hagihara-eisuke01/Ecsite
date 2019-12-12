@@ -1,6 +1,6 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if not exists template;
+drop database if exists template;
 
 create database if not exists template;
 use template;
@@ -25,7 +25,7 @@ item_price int,
 item_stock int,
 insert_date datetime,
 update_date datetime
-):
+);
 
 drop table if exists user_buy_item_transaction;
 
@@ -41,4 +41,4 @@ delete_date datetime
 );
 
 INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("ノートBook",100,50);
-INSERT INTO login_user_tarnsaction(login_id, login_pass, user_name) VALUES("internous","internous01","test");
+INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("internous","internous01","test");
