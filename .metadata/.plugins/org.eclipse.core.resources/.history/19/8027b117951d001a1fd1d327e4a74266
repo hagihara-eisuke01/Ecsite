@@ -22,12 +22,12 @@ public class UserCreateCompleteDAO{
 			ps.setString(3, userName);
 			ps.setString(4, dateUtil.getDate());
 			ps.execute();
-		} catch(SQLException e) {
+		} catch(Exception e) {
 			e.printStackTrace();
 	} finally {
 			try {
 				con.close();
-			} catch(SQLException e) {
+			} catch(Exception e) {
 				e.printStackTrace();
 			}
 		}

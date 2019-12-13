@@ -27,7 +27,7 @@ public class UserCreateCompleteDAO{
 	} finally {
 			try {
 				con.close();
-			} catch(SQLException e) {
+			} catch(Exception e) {
 				e.printStackTrace();
 			}
 		}
