@@ -8,7 +8,8 @@ import com.internousdev.template.util.DBConnector;
 import com.internousdev.template.util.DateUtil;
 
 public class UserCreateCompleteDAO{
-	public void createUser(String loginUserId, String loginUserPassword, String userName) {
+	public void createUser(String loginUserId, String loginUserPassword,
+			String userName) {
 		DateUtil dateUtil = new DateUtil();
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();

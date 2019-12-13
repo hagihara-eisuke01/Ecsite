@@ -25,7 +25,7 @@
         </tr>
         <tr>
           <td>値段</td>
-          <td><s:property value="session/total_price" /></td>
+          <td><s:property value="session.total_price" /></td>
         </tr>
         <tr>
           <td>購入個数</td>
