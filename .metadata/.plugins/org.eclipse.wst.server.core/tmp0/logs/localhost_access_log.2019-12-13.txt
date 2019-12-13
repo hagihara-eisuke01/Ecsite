@@ -178,3 +178,13 @@
 0:0:0:0:0:0:0:1 - - [13/Dec/2019:19:39:59 +0900] "GET /template/MyPageAction.action HTTP/1.1" 200 1419
 0:0:0:0:0:0:0:1 - - [13/Dec/2019:19:40:02 +0900] "POST /template/MyPageAction.action HTTP/1.1" 200 615
 0:0:0:0:0:0:0:1 - - [13/Dec/2019:19:40:05 +0900] "GET /template/HomeAction.action HTTP/1.1" 200 1208
+127.0.0.1 - - [13/Dec/2019:20:04:06 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:09 +0900] "GET /template/ HTTP/1.1" 200 700
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:09 +0900] "GET /template/css/style.css HTTP/1.1" 200 511
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:12 +0900] "POST /template/HomeAction.action;jsessionid=17846D6E2CAFB6C049FBAEF6410666E5 HTTP/1.1" 200 1208
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:20 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 2150
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:20 +0900] "GET /template/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:22 +0900] "POST /template/BuyItemAction.action HTTP/1.1" 200 1084
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:23 +0900] "POST /template/BuyItemConfirmAction.action HTTP/1.1" 200 562
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:25 +0900] "GET /template/MyPageAction.action HTTP/1.1" 200 1407
+0:0:0:0:0:0:0:1 - - [13/Dec/2019:20:04:26 +0900] "POST /template/MyPageAction.action HTTP/1.1" 200 615
